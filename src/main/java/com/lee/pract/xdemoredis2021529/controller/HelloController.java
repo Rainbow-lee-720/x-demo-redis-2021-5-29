@@ -35,6 +35,7 @@ public class HelloController {
     public Map test(String str) {
         Map map = new HashMap();
         map.put("tests", str);
+        map.put("lxl", str);
         return map;
     }
 
