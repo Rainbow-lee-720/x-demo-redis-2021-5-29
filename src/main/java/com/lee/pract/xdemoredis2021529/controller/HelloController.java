@@ -34,7 +34,7 @@ public class HelloController {
     @GetMapping(value = "/test")
     public Map test(String str) {
         Map map = new HashMap();
-        map.put("test", str);
+        map.put("tests", str);
         return map;
     }
 
